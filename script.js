@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 
 $(window).on('load', function(){
-  setTimeout(removeLoader, 50000000000); //wait for page load PLUS two seconds.
+  // setTimeout(removeLoader, 50000000000000000000000000000); //wait for page load PLUS two seconds.
 
 });
 function removeLoader(){
