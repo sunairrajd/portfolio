@@ -136,7 +136,7 @@ $(function(){
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 
 <div  class=" container mx-auto  justify-content-center" >
@@ -393,8 +393,8 @@ Using advanced technologies, one can create a much better grammar and unique sen
 
 </div>
 
-
-  <div class="bottom-blue py-3">
+  <div id="myfoot"></div>
+  <!-- <div class="bottom-blue py-3">
   <div class="container footer mx-auto justify-content-center">
     <div id="footer" class ="row py-5 align-items-center justify-content-center" >
       <div class="col-lg-5 py-5">
@@ -411,7 +411,11 @@ Using advanced technologies, one can create a much better grammar and unique sen
     </div>
     </div>
     </div>
-    </div>
-    <script>
+    </div> -->
 
+    <script>
+    $(function(){
+
+      $("#myfoot").load("bottomblue.html");
+    });
     </script>
