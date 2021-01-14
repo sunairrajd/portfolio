@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="284" viewBox="0 0 89 284">
+  <g id="Group_262" data-name="Group 262" transform="translate(-1694.5 -5989.5)">
+    <g id="Group_263" data-name="Group 263">
+      <g id="Icon_feather-arrow-down-circle" data-name="Icon feather-arrow-down-circle" transform="translate(1783 6273) rotate(180)">
+        <path id="Path_387" data-name="Path 387" d="M85,44A41,41,0,1,1,44,3,41,41,0,0,1,85,44Z" transform="translate(0 0)" fill="none" stroke="#0b3aa9" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <path id="Path_388" data-name="Path 388" d="M12,18,28.4,34.4,44.8,18" transform="translate(15.6 26)" fill="none" stroke="#0b3aa9" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <path id="Path_389" data-name="Path 389" d="M18,12V44.8" transform="translate(26 15.6)" fill="none" stroke="#0b3aa9" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      </g>
+      <text id="I_m_lazy_scroll_me_to_top" data-name="I’m lazy, scroll me to top" transform="translate(1710 6143.5) rotate(-90)" font-size="24" font-family="RealHeadPro-Medium, Real Head Pro" font-weight="500" opacity="0.588"><tspan x="0" y="25">I’m lazy, scroll </tspan><tspan x="0" y="49">me to top</tspan></text>
+    </g>
+  </g>
+</svg>

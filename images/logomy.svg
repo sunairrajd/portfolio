@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77">
+  <style>
+    .aba {
+    fill:#3972f5;
+    }
+    .aba :hover {
+    fill:#fff;
+    stroke:#3972f5;
+    }
+  </style>
+
+  <g id="Group_270" data-name="Group 270" transform="translate(-63 -2738)">
+    <rect id="Rectangle_301" class="aba" data-name="Rectangle 301" width="77" height="77" rx="9" transform="translate(63 2738)" fill=""/>
+    <text id="S" transform="translate(102.5 2790)" fill="#fff" font-size="39" font-family="RealHeadPro-Bold, Real Head Pro" font-weight="700"><tspan x="-12.656" y="0">S</tspan></text>
+  </g>
+</svg>
