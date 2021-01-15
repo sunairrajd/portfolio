@@ -47,15 +47,3 @@ function logohover(element) {
 function logounhover(element) {
   element.setAttribute('src', 'images/logomy.svg');
 }
-
-
-
-
-	// var colors = ["#000000"];
-	// for(var path in paths){
-  //   console.log(path);
-	//   paths[path].style.animationDelay = Math.round(Math.random()) + "s";
-	//   paths[path].style.animationDuration = Math.round(Math.random() * 12 + 10) + "s";
-	// //  paths[path].style.stroke = colors[Math.floor(Math.random() * colors.length)];
-	//   paths[path].style.opacity = (Math.random() * 0.5 + 0.1);
-	//   var pathLength = paths[path].getTotalLength();
