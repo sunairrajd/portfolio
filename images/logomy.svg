@@ -1,16 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77">
-  <style>
-    .aba {
-    fill:#3972f5;
-    }
-    .aba :hover {
-    fill:#fff;
-    stroke:#3972f5;
-    }
-  </style>
-
   <g id="Group_270" data-name="Group 270" transform="translate(-63 -2738)">
-    <rect id="Rectangle_301" class="aba" data-name="Rectangle 301" width="77" height="77" rx="9" transform="translate(63 2738)" fill=""/>
-    <text id="S" transform="translate(102.5 2790)" fill="#fff" font-size="39" font-family="RealHeadPro-Bold, Real Head Pro" font-weight="700"><tspan x="-12.656" y="0">S</tspan></text>
+    <rect id="Rectangle_301" data-name="Rectangle 301" width="77" height="77" rx="9" transform="translate(63 2738)" fill="#3972f5"/>
+    <path id="Path_1226" data-name="Path 1226" d="M.215.741c7.137,0,12.012-3.12,12.012-8.853,0-5.07-3.159-7.449-10.179-8.658-5.07-.858-6.084-1.6-6.084-3.2,0-1.56,1.4-2.457,4.095-2.457a9.121,9.121,0,0,1,7.176,3.042l4.524-3.783C9.223-26.013,5.4-28.041-.059-28.041c-6.591,0-11.037,3.12-11.037,8.229s3.2,7.371,9.867,8.658C4.153-10.14,5.09-9.36,5.09-7.644S3.178-4.875.37-4.875a11.481,11.481,0,0,1-8.5-3.588l-4.329,4.095A16.782,16.782,0,0,0,.215.741Z" transform="translate(102.5 2790)" fill="#fff"/>
   </g>
 </svg>
