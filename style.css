@@ -333,7 +333,7 @@ background-color:#0EEFCF;
 .project-block {
   /* width:300px; */
   overflow: hidden;
-  position:relative;
+
 }
 
 
@@ -363,7 +363,7 @@ background-color:#0EEFCF;
     border-radius: 4px;
 width:100%;
   overflow: hidden;
-  height:100%;
+
   }
 
   .behance {
