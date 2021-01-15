@@ -37,8 +37,8 @@ function qenaselect()
 { apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=qena&appid=c24ced086a2cbb0eab00a4edecd652c9';
 clear();
 draw(); }
-function lehselect()
-{ apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=leh&appid=c24ced086a2cbb0eab00a4edecd652c9';
+function tokyoselect()
+{ apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=tokyo&appid=c24ced086a2cbb0eab00a4edecd652c9';
 clear();
 draw(); }
 function torontoselect()
@@ -96,8 +96,8 @@ var btnqena = document.getElementById("qena");
 btnqena.onclick = qenaselect;
 
 
-var btnleh = document.getElementById("leh");
-btnleh.onclick = lehselect;
+var btntokyo = document.getElementById("tokyo");
+btntokyo.onclick = tokyoselect;
 
 var btntoronto = document.getElementById("toronto");
 btntoronto.onclick = torontoselect;

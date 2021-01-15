@@ -40,7 +40,7 @@ button {
 .main-animation{
   border-style: solid;
     border-radius: 4px;
-  animation:expand 0.5s infinite;
+  animation:expand 0.6s infinite;
     position: relative;
 }
 
@@ -52,11 +52,12 @@ button {
   0%{
 transform:scale(1);
 border-color: #123AE5;
-border-width:1px;
+border-width:2px;
     /* opacity:1; */
   }
   100%{
-    border-width:1px;
+    background-color: rgb(57,114,245,0.2);
+    border-width:2px;
 border-color: #f5f5f5;
 
 transform:scale(1);
@@ -182,7 +183,7 @@ $(function(){
     <button id="bangalore">Bangalore</button>
     <button id="qena">Qena</button>
     <button id="reykjavik">Reykjavík</button>
-  <button id="leh">Leh</button>
+  <button id="tokyo">Tokyo</button>
     <button id="honolulu">Honolulu</button>
   <button id="delhi">Delhi</button></li>
 </ul>
