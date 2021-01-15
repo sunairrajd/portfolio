@@ -14,11 +14,11 @@ opacity:0.7;
 }
     @keyframes dash {
     from { stroke-dashoffset: 60; }
-    20% { stroke-dashoffset: 10; }
-    40% { stroke-dashoffset: 30; }
-    60% { stroke-dashoffset: 60; }
+    20% { stroke-dashoffset: 20; }
+    40% { stroke-dashoffset: 10; }
+    60% { stroke-dashoffset: 40; }
     80% { stroke-dashoffset: 30; }
-    100% { stroke-dashoffset: 5; }
+    100% { stroke-dashoffset: 20; }
     }
 
     .mouth {
