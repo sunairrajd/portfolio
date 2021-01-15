@@ -148,14 +148,14 @@ $(function(){
 
 <h3 class="mt-0 text-black">Weather Card</h3>
 
-<p class="py-0 mb-3 project-page-main-desc ">An attempt to generate postcard design using weather around us.</p>
+<p class="py-0 mb-3 project-page-main-desc ">An attempt to create generative postcard designs using weather around us.</p>
 
 
-   <span class=" mb-0 project-page-main-attr mr-3 " ><strong>Duration:</strong> 3 Days(Individual)   </span>
+   <span class=" mb-0 project-page-main-attr mr-3 " ><strong>Duration:</strong> 4 Days(Individual)   </span>
  <span class=" mb-0  project-page-main-attr float-md-right " ><strong>Tools used:</strong> Adobe XD, HTML/CSS,P5js, Rita.js</span>
 
  <div class=" d-block my-3" style="width:100%">
-   <span class="project-page-tile-tags ">Robotics</span><span class="project-page-tile-tags ">DataArt</span><span class="project-page-tile-tags ">Python</span>
+  <span class="project-page-tile-tags ">Generative DataArt</span><span class="project-page-tile-tags ">P5Js</span>
  </div>
 </div>
 </div>
@@ -167,7 +167,7 @@ $(function(){
 <div class="row  align-items-start  justify-content-center" style="height:100vh;">
   <div class="col-12 col-md-8 flex-column align-items-center align-self-center">
 <div class="app-content">
-<p class="text-center mb-3" style="font-size:14px; color:#696969;"> Allow location access and use the buttons below to generate a postcard using weather data around you.</p>
+<p class="text-center mb-3" style="font-size:14px; color:#696969;"> To generate a design, allow location access and use the buttons below.</p>
 
 <div id ="mycan" style="max-width:100%;">
 <p style="z-index:0; position:absolute;" class="backtext">Please wait until the graphic loads. Give location access </p>
@@ -211,10 +211,12 @@ $(function(){
 
     <h6 class=" mt-5 project-page-heading">Initial Research</h6>
     <p class="project-page-text mb-4">
-During our design process module, based on the research and user interviews we(2 of us) did across major souvenir, gifts, tourist hotspot (across Bangalore), we found some insights that shaped this project
+During our design process module, based on the research and user interviews we(2 of us) did across major souvenir/gifts shops, tourist hotspots(across Bangalore), we came across few insights that shaped this project.
 
 </p> <p class="project-page-text mb-5">
-Mass produced gifts/souvenirs sold at retail outlets repeated usage of limited visuals in representing India (ex:Elephants, flowers, Taj Mahal, India Gate etc). There’s a huge community of people who use postcard to communicate through long distances. Post cards aren't easily available at many retail stores(low profit margin), except at  the ‘India post office’.
+1) Mass produced gifts/souvenirs sold at retail outlets had repeated usage of visuals in representing India (ex:Elephants, flowers, Taj Mahal, India Gate etc).
+</br>2) There’s a huge community of people who use postcard to communicate through long distances.
+</br>3) Post cards aren't easily available at many retail stores(low profit margin), except at  the ‘India post office’.
 
 
 
@@ -231,10 +233,10 @@ Mass produced gifts/souvenirs sold at retail outlets repeated usage of limited v
   <h6 class=" mb-1 mt-4 project-page-heading">Concept</h6>
 
 <p class="project-page-text mb-5">
-  Postcards acts as a purpose for souvenir, gifts when someone visits a new city/country. When posted, it embraces a journey to be taken serval kilometres to reach its destination embedded with details such as time and location to it. They’re also cheap and easy to send, making it the most viable souvenir/gift to be sent to far away places to the people they care about.
+  Postcards acts as a purpose for souvenir, gifts when someone visits a new city/country. When posted, it embraces a journey to be taken several kilometres to reach its destination, embedded along with details such as time, location and details of the sender. They’re also cheap and easy to send, making it the most viable souvenir/gift to be sent to far away places to the people they care about.
 </p>
 <p class="project-page-text my-5 display-4" style="font-size:1.7rem; line-height:1.4;">
-"What if one could send a postcard to a friend and traslate how the weather around was when you were writing to them."
+"What if one could send a postcard to a friend and translate how the weather around was when you were writing to them."
 </p>
 <p class="project-page-text my-5">
 What if the experience of it could be translated visually on a postcard. The postcard will serve as a memory to the moment one has thought of sending a message to someone.
@@ -251,15 +253,21 @@ What if the experience of it could be translated visually on a postcard. The pos
 <div class="container mx-auto py-2   align-items-center justify-content-center " >
 <div class="row  px-3  justify-content-center">
 
+  <div class="col-12 col-md-8">
+    <h6 class=" mb-1 mb-1 project-page-heading">Jouney Map:</h6>
+    <p class="project-page-text mb-4">
+  Assuming Rahul as a persona who wishes to send a postcard to his friend  </p>
+  </div>
+</div>
 
-
+<div class="row  px-3  justify-content-center">
       <div class="col-12 col-md-3 d-inline-block " >
       <img src="weather/aa.jpg" class="px-2 steps-a d-inline-block float-center" />
       <p class="project-page-tag  my-3" style="">One fine day, Rahul thinks about sending a post card to his friend in Oslo</p>
 </div>
 <div class="col-12 col-md-3 d-inline-block " >
     <img src="weather/bb.jpg" class=" px-2 steps-a d-inline-block float-center" style=""/>
-    <p class="project-page-tag my-3">He uses the interface to generate a post card design with auto generated haiku</p>
+    <p class="project-page-tag my-3">He uses the interface to generate a post card design </p>
   </div>
 
   <div class="col-12 col-md-3 d-inline-block " >
@@ -282,7 +290,7 @@ What if the experience of it could be translated visually on a postcard. The pos
 
   <div class="col-12 col-md-8 px-3">
   <h6 class=" mb-1 project-page-heading">The process</h6>
-<p class="project-page-text mb-1">Weather data is openly available using API. Using them, I tried to conceptualise how they could be translated into shapes to form a graphic</p>
+<p class="project-page-text mb-1">Weather data is openly available using OpenweathermapAPI. Using them, figuring out the data points that can be translated to a graphic.</p>
 </div>
 </div>
 </div>
@@ -317,7 +325,7 @@ Temperature(degrees celsius, numerical)</li>
 
 
 
-        <p class="project-page-text mt-5 mb-5">The design was meant to be closer to abstract and not represent an everyday weather application. Use of high saturation colours and grid layout to give a more clear expression for generated graphics</p>
+        <p class="project-page-text mt-5 mb-5">The design was meant to be closer to abstract and not represent an everyday weather application. Use of saturated colours and grid layout to give a more clear expression for generated graphics</p>
 <img src="weather/e.gif" class="d-block my-5" style="image-size:contain; width:100%;"/>
 
   <h6 class=" mb-1 project-page-heading">Generating the Haiku</h6>
@@ -326,7 +334,11 @@ Temperature(degrees celsius, numerical)</li>
 
 
 <img src="weather/6.jpg" class="d-block my-5 mb-3" style="image-size:contain; width:100%;"/>
-<p class="project-page-text text-center mt-4 ">Process of generating Haiku</p>
+
+<p class="project-page-tag text-center ">
+Process of generating Haiku
+</p>
+
 <p class="project-page-text mb-5">
 The usual pattern for haikus is 3 lines , 17 syllables ( 5-7-5 syllables per sentence). But due to the limited experience in technology , the best I could figure out was to ease out the syllable limit for now. Haikus also doesn’t have to rhyme, that made things easier.</p>
 
@@ -340,9 +352,9 @@ Downloaded sample set to examine syntax of haiku
 </p>
 
 <p class="project-page-text my-3 mt-1">
-  Step 1) Finding common/frequent words from Kaggle’s haiku database
-</p><p class="project-page-text my-3">  Step 2)Converted values from weather data to text(ex: raining, hot, cold)
-</p><p class="project-page-text my-3">Step 3) Inbuilt lexicon dictionary of Rita
+  Step (1)  Finding common/frequent words from Kaggle’s haiku database
+</p><p class="project-page-text my-3">  Step (2)  Converted values from weather data to text(ex: raining, hot, cold)
+</p><p class="project-page-text my-3">Step (3)  Inbuilt lexicon dictionary of Rita
 
 
 

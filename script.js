@@ -21,14 +21,14 @@ $(document).ready(function(){
 
 
 $(window).on('load', function(){
-  // setTimeout(removeLoader, 500); //wait for page load PLUS two seconds.
+  setTimeout(removeLoader, 500); //wait for page load PLUS two seconds.
 
 });
 function removeLoader(){
       new WOW().init();
     $( ".loadermy" ).fadeOut(300, function() {
 
-      // $( ".loadermy" ).addClass("d-none");
+      $( ".loadermy" ).addClass("d-none");
         // fadeOut complete. Remove the loading div
       $( ".loadermy" ).remove(); //makes page more lightweight
   });
