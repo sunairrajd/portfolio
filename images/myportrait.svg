@@ -4,7 +4,7 @@
       .stripes {
     stroke-dasharray: 10;
       animation: dash 5s linear infinite;
-      opactiy: 0.9;
+      opactiy: 1;
 
     }
 
