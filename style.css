@@ -417,11 +417,12 @@ transform: scale(1.08);
   font-family: ff-real-headline-pro, sans-serif;
   margin-top: 6px;
   margin-bottom:4px !important;
-  font-weight: 600;
+  font-weight: 400;
   /* color: #123AE5; */
   /* color: #1b3dce; */
-  color:#3e3d3d;
-  font-size: 0.9rem;
+  /* color:#3e3d3d; */
+  color: #3972F5;
+  font-size: 1rem;
 }
 
 nav {
@@ -471,7 +472,7 @@ h2 {
   font-family: ff-real-headline-pro, sans-serif;
   font-size: 3rem !important;
   font-weight: 700 !important;
-  color: #3972F5;
+  color: #3e3d3d;
 }
 
 h3 {
@@ -485,13 +486,14 @@ h3 {
   position: relative;
   display: inline-block;
   font-family: ff-real-headline-pro, sans-serif;
-  font-size: 0.6rem !important;
+  font-size: 0.8rem !important;
   padding: 2px 6px;
+  margin-top:-2px;
   margin-left: 3px;
   /* background-color: rgba(0,0,0,0.1); */
   background-color: rgb(216, 216, 216, 0.4);
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(60, 54, 194, 0.6);
   letter-spacing: 0.35px;
 }
