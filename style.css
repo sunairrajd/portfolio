@@ -6,6 +6,8 @@ html {
 }
 
 
+
+
 .loadermy {
 
   width:100%;
@@ -15,6 +17,7 @@ html {
   background-color: white;
   position:fixed;
 }
+
 
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -410,7 +413,6 @@ transform: scale(1.08);
     }
 
 
-
 .project-tile-text {
   position: relative;
   line-height: 1.5;
@@ -560,6 +562,14 @@ h3 {
 }
 
 
+.mtportrait {
+
+height:65vh;
+
+}
+
+
+
 .footer-rotate {
   transform: rotate(-90deg);
   overflow: visible;
@@ -578,10 +588,29 @@ h3 {
   position: relative;
 }
 
+
+.myportrait {
+  height:85vh;
+}
+
+@media only screen and (max-width: 1200px) {
+
+.myportrait {
+  height:55vh;
+}
+
+}
 @media only screen and (max-width: 768px) {
   .intro-text{
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
+
+
+  .main-nav-text{
+    font-size:1rem;
+  }
+
+
 
   .home-social {
   font-size: 0.8rem;
