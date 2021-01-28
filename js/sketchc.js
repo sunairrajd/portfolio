@@ -29,12 +29,12 @@ function bangaloreselect()
 { apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=c24ced086a2cbb0eab00a4edecd652c9';
 clear();
 draw(); }
-function delhiselect()
-{ apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=c24ced086a2cbb0eab00a4edecd652c9';
+function srinagarselect()
+{ apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=srinagar&appid=c24ced086a2cbb0eab00a4edecd652c9';
 clear();
 draw(); }
-function qenaselect()
-{ apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=qena&appid=c24ced086a2cbb0eab00a4edecd652c9';
+function khartoumselect()
+{ apiurl = 'https://api.openweathermap.org/data/2.5/weather?q=khartoum&appid=c24ced086a2cbb0eab00a4edecd652c9';
 clear();
 draw(); }
 function tokyoselect()
@@ -88,12 +88,12 @@ window.onload = function() {
 var btnbangalore = document.getElementById("bangalore");
 btnbangalore.onclick = bangaloreselect;
 
-var btndelhi = document.getElementById("delhi");
-btndelhi.onclick = delhiselect;
+var btnsrinagar = document.getElementById("srinagar");
+btnsrinagar.onclick = srinagarselect;
 
 
-var btnqena = document.getElementById("qena");
-btnqena.onclick = qenaselect;
+var btnkhartoum = document.getElementById("khartoum");
+btnkhartoum.onclick = khartoumselect;
 
 
 var btntokyo = document.getElementById("tokyo");
@@ -301,6 +301,8 @@ function showPosition(position) {
 }
 
 
+
+
 function draw()
 {
 
@@ -366,16 +368,23 @@ function gotData(data) {
     //var minutes = date.getMinutes();
 
 
-    feelslike = weather.main.feels_like;
+    feelslike = weather.main.temp;
 
     feelslikef = (feelslike-273.15)*1.8+32;
     feelslikec = (Math.round(feelslike-273.15));
-    //feelslikecircle = Math.log2(feelslikec)*15;
-    feelslikecircle = (feelslikef*0.5)+1;
-    // console.log('tempppppp in f ' + feelslikef);
-    // console.log('tempppppp in c ' + feelslikec);
-    // console.log('my latitude ' + mylatitude);
-    // console.log('my latitude ' + mylongitude);
+
+
+       if (feelslikef <= 0){
+           feelslikecircle = 3;
+
+       }
+
+       else {
+
+           feelslikecircle = (feelslikef*0.4);
+       }
+
+
 console.log(feelslikecircle);
     main = weather.weather[0].main;
 
@@ -556,8 +565,6 @@ else {
             noStroke();
             // fill(255,0,255);
         fill(255,226,0);
-
-
             circle(i,j,feelslikecircle);
             pop();
 
