@@ -301,8 +301,6 @@ function showPosition(position) {
 }
 
 
-
-
 function draw()
 {
 
