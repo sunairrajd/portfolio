@@ -331,7 +331,7 @@ opacity:0.7;
     </g>
     <g id="Group_275" data-name="Group 275" transform="translate(522.263 429.412) rotate(30)">
       <path id="Path_392" data-name="Path 392" d="M71.561.555l8.985,105.859,82.114-67.159Z" fill="#fff"/>
-      <text id="Hi" transform="translate(82.829 53.97) rotate(-68)" fill="#535353" font-size="26" font-family="RealHeadPro-Demibold, Real Head Pro" font-weight="300" opacity="0.441"><tspan x="0" y="27">Hi</tspan></text>
+      <text id="Hi" transform="translate(82.829 53.97) rotate(-68)" fill="#535353" font-size="26" font-family="Arial, RealHeadPro-Demibold, Real Head Pro" font-weight="300" opacity="0.441"><tspan x="0" y="27">Hi</tspan></text>
     </g>
   </g>
 </svg>
